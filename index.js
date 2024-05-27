@@ -21,7 +21,7 @@ app.post('/bar', function(req, res) {
   var id = bodys.id;
   var params =  bodys.params;
   var body = {
-    id: ++id,
+    id: id,
     result: params
   };
   console.log(body);
